@@ -43,19 +43,7 @@ python detect_number_plate.py
 - The video will display bounding boxes around detected number plates.
 - Detected number plates will be saved in the specified directory with filenames in the format NoPlate_<count>.jpg.
 
-## Directory Structure
 
-E:\Opencv\Project 1\
-│
-├── Videos\
-│   └── demo.mp4                  Input video file
-│
-├── Number Plate Detection\
-│   ├── Resources\
-│   │   └── Numberplate\          Saved number plate images
-│
-├── haarcascade_russian_plate_number.xml  # Haar Cascade for number plate detection
-└── detect_number_plate.py         Main Python script
 
 ## Code Explanation
 1. Video Capture: The video is read frame by frame using cv2.VideoCapture.
